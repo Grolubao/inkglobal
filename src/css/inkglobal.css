@@ -1,0 +1,23 @@
+.x-grid3-row td, .x-grid3-summary-row td {
+    font: 16px arial,tahoma,helvetica,sans-serif;
+}
+
+.x-grid3-row {
+    height: 40px;
+}
+
+.x-grid3 table {
+    height: 20px;
+}
+
+.x-grid3-hd-row td {
+    font: 15px arial,tahoma,helvetica,sans-serif;
+}
+
+.increasepadding {
+    padding: 10px 300px 70px;
+}
+
+.formpadding {
+    padding: 10px;
+}

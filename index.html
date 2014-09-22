@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ink - Weather Station Test</title>
+
+
+    <link rel="stylesheet" type="text/css" href="src/resources/css/ext-all.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/inkglobal.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/icons.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/example.css"/>
+
+    <script src="src/js/ext/ext-base.js"></script>
+    <script src="src/js/ext/ext-all.js"></script>
+    <script src="src/js/ext/ux/JSONP.js"></script>
+    <script src="src/js/ext/ux/example.js"></script>
+
+    <script src="src/js/inkglobal/model/CitiesModel.js"></script>
+    <script src="src/js/inkglobal/model/CityIdsModel.js"></script>
+    <script src="src/js/inkglobal/model/WeatherConditionsModel.js"></script>
+
+    <script src="src/js/inkglobal/controller/CitiesController.js"></script>
+
+    <script src="src/js/inkglobal/view/CitiesGridPanel.js"></script>
+    <script src="src/js/inkglobal/view/CityDetailsFormPanel.js"></script>
+    <script src="src/js/inkglobal/view/WeatherConditionsGridPanel.js"></script>
+    <script src="src/js/inkglobal/view/Viewport.js"></script>
+
+</head>
+<body>
+<script>
+    Ext.onReady(function () {
+
+        var controller = new Inkglobal.controller.CitiesController();
+
+        var viewPort = new Inkglobal.view.Viewport({
+            controller: controller
+        });
+
+    });
+
+</script>
+</body>
+</html>
